@@ -136,4 +136,3 @@ bool AuthService::changePassword(UserRole role, int userId, const QString& oldPa
     
     return false;
 }
-

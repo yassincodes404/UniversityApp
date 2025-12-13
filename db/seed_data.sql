@@ -23,22 +23,23 @@ INSERT INTO labs (id, lab_name, capacity) VALUES
 (4, 'Lab 301', 30);
 
 -- Insert Admin (password: admin123, hashed with salt)
--- In real implementation, use PasswordHasher to generate these
-INSERT INTO admins (id, name, email, password_hash, salt) VALUES
-(1, 'System Administrator', 'admin@nctu.edu.eg', 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3', 'salt123');
+-- Hash: SHA256("salt123" + "admin123") = e3449f1bbcbc22aa87271112484e18b4b7bcd6d1bd2e4dab54817a3ded30d185
+INSERT OR REPLACE INTO admins (id, name, email, password_hash, salt) VALUES
+(1, 'System Administrator', 'admin@nctu.edu.eg', 'e3449f1bbcbc22aa87271112484e18b4b7bcd6d1bd2e4dab54817a3ded30d185', 'salt123');
 
 -- Insert Doctors (password: doctor123)
-INSERT INTO doctors (id, name, email, phone, password_hash, salt, department_id) VALUES
-(1, 'Dr. Ahmed Mohamed', 'ahmed.mohamed@nctu.edu.eg', '01001234567', 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3', 'salt123', 1),
-(2, 'Dr. Sara Ali', 'sara.ali@nctu.edu.eg', '01009876543', 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3', 'salt123', 1),
-(3, 'Dr. Mohamed Hassan', 'mohamed.hassan@nctu.edu.eg', '01005556677', 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3', 'salt123', 2);
+-- Hash: SHA256("salt123" + "doctor123") = 7c8c7fd2792d4b0b1e3e2dad1465de8933557e029fd9154d4a4835d4200d776c
+INSERT OR REPLACE INTO doctors (id, name, email, phone, password_hash, salt, department_id) VALUES
+(1, 'Dr. Ahmed Mohamed', 'ahmed.mohamed@nctu.edu.eg', '01001234567', '7c8c7fd2792d4b0b1e3e2dad1465de8933557e029fd9154d4a4835d4200d776c', 'salt123', 1),
+(2, 'Dr. Sara Ali', 'sara.ali@nctu.edu.eg', '01009876543', '7c8c7fd2792d4b0b1e3e2dad1465de8933557e029fd9154d4a4835d4200d776c', 'salt123', 1),
+(3, 'Dr. Mohamed Hassan', 'mohamed.hassan@nctu.edu.eg', '01005556677', '7c8c7fd2792d4b0b1e3e2dad1465de8933557e029fd9154d4a4835d4200d776c', 'salt123', 2);
 
--- Insert Students (password: student123, national_id as default)
--- Note: In production, use proper password hashing
-INSERT INTO students (id, student_code, name, email, phone, password_hash, salt, program_id, department_id, national_id, birth_date, gender, seat_number, status, level) VALUES
-(1, 'STU2024001', 'Yassin Mohamed', 'yassin.mohamed@student.nctu.edu.eg', '01001112233', 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3', 'salt123', 1, 1, '12345678901234', '2000-01-15', 'M', 'S001', 'active', 2),
-(2, 'STU2024002', 'Mariam Ali', 'mariam.ali@student.nctu.edu.eg', '01002223344', 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3', 'salt123', 1, 1, '23456789012345', '2001-03-20', 'F', 'S002', 'active', 2),
-(3, 'STU2024003', 'Omar Hassan', 'omar.hassan@student.nctu.edu.eg', '01003334455', 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3', 'salt123', 2, 1, '34567890123456', '2000-07-10', 'M', 'S003', 'active', 3);
+-- Insert Students (password: student123)
+-- Hash: SHA256("salt123" + "student123") = 0dc501a41a5299138a54e57936d14e118d619b7d14940365c9cb6896246090c9
+INSERT OR REPLACE INTO students (id, student_code, name, email, phone, password_hash, salt, program_id, department_id, national_id, birth_date, gender, seat_number, status, level) VALUES
+(1, 'STU2024001', 'Yassin Mohamed', 'yassin.mohamed@student.nctu.edu.eg', '01001112233', '0dc501a41a5299138a54e57936d14e118d619b7d14940365c9cb6896246090c9', 'salt123', 1, 1, '12345678901234', '2000-01-15', 'M', 'S001', 'active', 2),
+(2, 'STU2024002', 'Mariam Ali', 'mariam.ali@student.nctu.edu.eg', '01002223344', '0dc501a41a5299138a54e57936d14e118d619b7d14940365c9cb6896246090c9', 'salt123', 1, 1, '23456789012345', '2001-03-20', 'F', 'S002', 'active', 2),
+(3, 'STU2024003', 'Omar Hassan', 'omar.hassan@student.nctu.edu.eg', '01003334455', '0dc501a41a5299138a54e57936d14e118d619b7d14940365c9cb6896246090c9', 'salt123', 2, 1, '34567890123456', '2000-07-10', 'M', 'S003', 'active', 3);
 
 -- Insert Courses
 INSERT INTO courses (id, code, name, credit_hours, program_id, year, semester, course_type, description) VALUES
