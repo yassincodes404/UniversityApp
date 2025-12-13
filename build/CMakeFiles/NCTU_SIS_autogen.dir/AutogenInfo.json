@@ -1,0 +1,405 @@
+{
+	"BUILD_DIR" : "/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen",
+	"CMAKE_BINARY_DIR" : "/home/yassin/UniversityApp-1/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/yassin/UniversityApp-1/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/yassin/UniversityApp-1",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/yassin/UniversityApp-1/CMakeLists.txt",
+		"/home/yassin/UniversityApp-1/build/CMakeFiles/3.28.3/CMakeSystem.cmake",
+		"/usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake",
+		"/usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake",
+		"/home/yassin/UniversityApp-1/build/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake",
+		"/usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake",
+		"/usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake",
+		"/usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake",
+		"/usr/share/cmake-3.28/Modules/Platform/Linux.cmake",
+		"/usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake",
+		"/usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake",
+		"/usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake",
+		"/usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake",
+		"/usr/share/cmake-3.28/Modules/Compiler/GNU.cmake",
+		"/usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake",
+		"/usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake",
+		"/usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"/usr/share/cmake-3.28/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"/usr/share/cmake-3.28/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Sql/Qt5SqlConfig.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/yassin/UniversityApp-1",
+	"DEP_FILE" : "/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "NCTU_SIS_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/home/yassin/UniversityApp-1/app/AdminWindow/AdminWindow.h",
+			"MU",
+			"J3YPSRMTJK/moc_AdminWindow.cpp",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/AppMainWindow/MainWindow.h",
+			"MU",
+			"LWFW5IONT3/moc_MainWindow.cpp",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/DAL/AdminRepo.h",
+			"MU",
+			"CX3PODKJSL/moc_AdminRepo.cpp",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/DAL/AttendanceRepo.h",
+			"MU",
+			"CX3PODKJSL/moc_AttendanceRepo.cpp",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/DAL/CourseRepo.h",
+			"MU",
+			"CX3PODKJSL/moc_CourseRepo.cpp",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/DAL/DatabaseManager.h",
+			"MU",
+			"CX3PODKJSL/moc_DatabaseManager.cpp",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/DAL/DoctorRepo.h",
+			"MU",
+			"CX3PODKJSL/moc_DoctorRepo.cpp",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/DAL/EnrollmentRepo.h",
+			"MU",
+			"CX3PODKJSL/moc_EnrollmentRepo.cpp",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/DAL/ExamRepo.h",
+			"MU",
+			"CX3PODKJSL/moc_ExamRepo.cpp",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/DAL/GradeRepo.h",
+			"MU",
+			"CX3PODKJSL/moc_GradeRepo.cpp",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/DAL/NewsRepo.h",
+			"MU",
+			"CX3PODKJSL/moc_NewsRepo.cpp",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/DAL/PaymentRepo.h",
+			"MU",
+			"CX3PODKJSL/moc_PaymentRepo.cpp",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/DAL/StudentRepo.h",
+			"MU",
+			"CX3PODKJSL/moc_StudentRepo.cpp",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/DoctorWindow/DoctorWindow.h",
+			"MU",
+			"QUAE3N72XN/moc_DoctorWindow.cpp",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/Login/LoginController.h",
+			"MU",
+			"GABMPALVI4/moc_LoginController.cpp",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/Models/Attendance.h",
+			"MU",
+			"7FAZGNCL4H/moc_Attendance.cpp",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/Models/Course.h",
+			"MU",
+			"7FAZGNCL4H/moc_Course.cpp",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/Models/Doctor.h",
+			"MU",
+			"7FAZGNCL4H/moc_Doctor.cpp",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/Models/Enrollment.h",
+			"MU",
+			"7FAZGNCL4H/moc_Enrollment.cpp",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/Models/Exam.h",
+			"MU",
+			"7FAZGNCL4H/moc_Exam.cpp",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/Models/Grade.h",
+			"MU",
+			"7FAZGNCL4H/moc_Grade.cpp",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/Models/News.h",
+			"MU",
+			"7FAZGNCL4H/moc_News.cpp",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/Models/Payment.h",
+			"MU",
+			"7FAZGNCL4H/moc_Payment.cpp",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/Models/Student.h",
+			"MU",
+			"7FAZGNCL4H/moc_Student.cpp",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/Services/AttendanceService.h",
+			"MU",
+			"WWSCUPDY2H/moc_AttendanceService.cpp",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/Services/AuthService.h",
+			"MU",
+			"WWSCUPDY2H/moc_AuthService.cpp",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/Services/GradingService.h",
+			"MU",
+			"WWSCUPDY2H/moc_GradingService.cpp",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/Services/PMDService.h",
+			"MU",
+			"WWSCUPDY2H/moc_PMDService.cpp",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/StudentWindow/StudentWindow.h",
+			"MU",
+			"VYBZB3VBP3/moc_StudentWindow.cpp",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/Utils/PasswordHasher.h",
+			"MU",
+			"TWPVZCRUQM/moc_PasswordHasher.cpp",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/Utils/Validators.h",
+			"MU",
+			"TWPVZCRUQM/moc_Validators.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_SQL_LIB",
+		"QT_WIDGETS_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/yassin/UniversityApp-1/app",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt5/QtSql",
+		"/usr/include/c++/13",
+		"/usr/include/x86_64-linux-gnu/c++/13",
+		"/usr/include/c++/13/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/13/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-std=gnu++17",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/yassin/UniversityApp-1/build/CMakeFiles/NCTU_SIS_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/yassin/UniversityApp-1/build/CMakeFiles/NCTU_SIS_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/yassin/UniversityApp-1/app/AdminWindow/AdminWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/AppMainWindow/MainWindow.cpp",
+			"MU",
+			null
+		],
+		[ "/home/yassin/UniversityApp-1/app/DAL/AdminRepo.cpp", "MU", null ],
+		[ "/home/yassin/UniversityApp-1/app/DAL/AttendanceRepo.cpp", "MU", null ],
+		[ "/home/yassin/UniversityApp-1/app/DAL/CourseRepo.cpp", "MU", null ],
+		[
+			"/home/yassin/UniversityApp-1/app/DAL/DatabaseManager.cpp",
+			"MU",
+			null
+		],
+		[ "/home/yassin/UniversityApp-1/app/DAL/DoctorRepo.cpp", "MU", null ],
+		[ "/home/yassin/UniversityApp-1/app/DAL/EnrollmentRepo.cpp", "MU", null ],
+		[ "/home/yassin/UniversityApp-1/app/DAL/ExamRepo.cpp", "MU", null ],
+		[ "/home/yassin/UniversityApp-1/app/DAL/GradeRepo.cpp", "MU", null ],
+		[ "/home/yassin/UniversityApp-1/app/DAL/NewsRepo.cpp", "MU", null ],
+		[ "/home/yassin/UniversityApp-1/app/DAL/PaymentRepo.cpp", "MU", null ],
+		[ "/home/yassin/UniversityApp-1/app/DAL/StudentRepo.cpp", "MU", null ],
+		[
+			"/home/yassin/UniversityApp-1/app/DoctorWindow/DoctorWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/Login/LoginController.cpp",
+			"MU",
+			null
+		],
+		[ "/home/yassin/UniversityApp-1/app/Models/Attendance.cpp", "MU", null ],
+		[ "/home/yassin/UniversityApp-1/app/Models/Course.cpp", "MU", null ],
+		[ "/home/yassin/UniversityApp-1/app/Models/Doctor.cpp", "MU", null ],
+		[ "/home/yassin/UniversityApp-1/app/Models/Enrollment.cpp", "MU", null ],
+		[ "/home/yassin/UniversityApp-1/app/Models/Exam.cpp", "MU", null ],
+		[ "/home/yassin/UniversityApp-1/app/Models/Grade.cpp", "MU", null ],
+		[ "/home/yassin/UniversityApp-1/app/Models/News.cpp", "MU", null ],
+		[ "/home/yassin/UniversityApp-1/app/Models/Payment.cpp", "MU", null ],
+		[ "/home/yassin/UniversityApp-1/app/Models/Student.cpp", "MU", null ],
+		[
+			"/home/yassin/UniversityApp-1/app/Services/AttendanceService.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/Services/AuthService.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/Services/GradingService.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/Services/PMDService.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/StudentWindow/StudentWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/yassin/UniversityApp-1/app/Utils/PasswordHasher.cpp",
+			"MU",
+			null
+		],
+		[ "/home/yassin/UniversityApp-1/app/Utils/Validators.cpp", "MU", null ],
+		[ "/home/yassin/UniversityApp-1/app/main.cpp", "MU", null ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,5 @@
+/home/yassin/UniversityApp-1/build/CMakeFiles/NCTU_SIS.dir
+/home/yassin/UniversityApp-1/build/CMakeFiles/edit_cache.dir
+/home/yassin/UniversityApp-1/build/CMakeFiles/rebuild_cache.dir
+/home/yassin/UniversityApp-1/build/CMakeFiles/NCTU_SIS_autogen_timestamp_deps.dir
+/home/yassin/UniversityApp-1/build/CMakeFiles/NCTU_SIS_autogen.dir
