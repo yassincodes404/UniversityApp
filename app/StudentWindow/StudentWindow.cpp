@@ -19,6 +19,12 @@
 #include <QSqlQuery>
 #include <QHeaderView>
 #include <QLabel>
+#include <QFileDialog>
+#include <QFile>
+#include <QDir>
+#include <QStandardPaths>
+#include <QPixmap>
+#include <QMessageBox>
 
 StudentWindow::StudentWindow(int studentId, QWidget *parent)
     : QMainWindow(parent)
@@ -56,6 +62,21 @@ void StudentWindow::setupUI()
     // Profile tab
     QWidget* profileWidget = new QWidget;
     QVBoxLayout* profileLayout = new QVBoxLayout(profileWidget);
+
+    // Profile image
+    m_profileImageLabel = new QLabel(this);
+    m_profileImageLabel->setAlignment(Qt::AlignCenter);
+    m_profileImageLabel->setFixedSize(160, 160);
+    m_profileImageLabel->setStyleSheet("border: 1px solid #ccc; background: #f5f5f5;");
+    profileLayout->addWidget(m_profileImageLabel, 0, Qt::AlignCenter);
+
+    // Change image button
+    m_changeImageButton = new QPushButton("Change Profile Picture", this);
+    connect(m_changeImageButton, &QPushButton::clicked,
+            this, &StudentWindow::onChangeProfileImage);
+    profileLayout->addWidget(m_changeImageButton, 0, Qt::AlignCenter);
+
+    // Profile text
     m_profileLabel = new QLabel(this);
     m_profileLabel->setTextFormat(Qt::RichText);
     profileLayout->addWidget(m_profileLabel);
@@ -234,6 +255,29 @@ void StudentWindow::loadProfile()
          .arg(student->creditsCompleted());
         
         m_profileLabel->setText(profileText);
+
+        // Load current profile image from students.profile_image_path
+        QSqlQuery query(DatabaseManager::instance().database());
+        query.prepare("SELECT profile_image_path FROM students WHERE id = ?");
+        query.addBindValue(m_studentId);
+        QString imagePath;
+        if (query.exec() && query.next()) {
+            imagePath = query.value(0).toString();
+        }
+
+        if (!imagePath.isEmpty() && QFile::exists(imagePath)) {
+            QPixmap pix(imagePath);
+            if (!pix.isNull()) {
+                m_profileImageLabel->setPixmap(
+                    pix.scaled(m_profileImageLabel->size(),
+                               Qt::KeepAspectRatio,
+                               Qt::SmoothTransformation));
+            } else {
+                m_profileImageLabel->setText("No image");
+            }
+        } else {
+            m_profileImageLabel->setText("No image");
+        }
     }
 }
 
@@ -295,5 +339,71 @@ void StudentWindow::loadNews()
     if (model) {
         model->select();
     }
+}
+
+void StudentWindow::onChangeProfileImage()
+{
+    // Let the user pick a new image from local computer
+    QString filePath = QFileDialog::getOpenFileName(
+        this,
+        "Select Profile Picture",
+        QString(),
+        "Images (*.png *.jpg *.jpeg *.bmp)"
+    );
+    if (filePath.isEmpty()) {
+        return;
+    }
+
+    // Determine destination path in application data directory
+    QString dataPath = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation);
+    QDir dir(dataPath);
+    if (!dir.exists("profile_images")) {
+        dir.mkpath("profile_images");
+    }
+    QString destDirPath = dir.filePath("profile_images");
+    QDir destDir(destDirPath);
+
+    // Use student id and original file name to avoid collisions
+    QFileInfo fi(filePath);
+    QString destFileName = QString("student_%1_%2").arg(m_studentId).arg(fi.fileName());
+    QString destPath = destDir.filePath(destFileName);
+
+    // Copy image
+    if (!QFile::copy(filePath, destPath)) {
+        QMessageBox::warning(this, "Profile Picture", "Failed to copy selected image.");
+        return;
+    }
+
+    // Get current image path
+    QString oldPath;
+    {
+        QSqlQuery query(DatabaseManager::instance().database());
+        query.prepare("SELECT profile_image_path FROM students WHERE id = ?");
+        query.addBindValue(m_studentId);
+        if (query.exec() && query.next()) {
+            oldPath = query.value(0).toString();
+        }
+    }
+
+    // Insert change request
+    QSqlQuery insertQuery(DatabaseManager::instance().database());
+    insertQuery.prepare(
+        "INSERT INTO profile_image_change_requests "
+        "(student_id, old_image_path, new_image_path, status, requested_at) "
+        "VALUES (?, ?, ?, 'pending', CURRENT_TIMESTAMP)"
+    );
+    insertQuery.addBindValue(m_studentId);
+    insertQuery.addBindValue(oldPath);
+    insertQuery.addBindValue(destPath);
+
+    if (!insertQuery.exec()) {
+        QMessageBox::critical(this, "Profile Picture",
+                              "Failed to submit profile image change request.");
+        return;
+    }
+
+    QMessageBox::information(this,
+                             "Profile Picture",
+                             "Your profile image change request has been submitted for admin approval.");
 }
 

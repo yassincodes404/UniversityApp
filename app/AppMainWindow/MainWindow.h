@@ -6,6 +6,7 @@
 
 QT_BEGIN_NAMESPACE
 class QStackedWidget;
+class QLabel;
 QT_END_NAMESPACE
 
 class MainWindow : public QMainWindow
@@ -25,6 +26,7 @@ private:
     
     QStackedWidget* m_stackedWidget;
     LoginController* m_loginController;
+    QLabel* m_logoLabel;
 };
 
 #endif // MAINWINDOW_H

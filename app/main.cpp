@@ -22,51 +22,66 @@ bool initializeDatabase()
         return false;
     }
     
-    // Check if database is new (no tables exist)
-    QSqlQuery checkQuery(db.database());
-    checkQuery.exec("SELECT name FROM sqlite_master WHERE type='table' AND name='students'");
+    QString appDir = QApplication::applicationDirPath();
+    // Use the legacy SQLite schema that matches the current DAL/Models
+    QString schemaPath = appDir + "/../db/sqlite_create_old.sql";
     
-    if (!checkQuery.next()) {
-        // Database is new, create schema
-        QString appDir = QApplication::applicationDirPath();
-        QString schemaPath = appDir + "/../db/sqlite_create.sql";
-        
-        // Try alternative paths
-        if (!QFile::exists(schemaPath)) {
-            schemaPath = "db/sqlite_create.sql";
-        }
-        if (!QFile::exists(schemaPath)) {
-            QString altPath = QStandardPaths::locate(QStandardPaths::AppDataLocation, "sqlite_create.sql");
-            schemaPath = altPath;
-        }
-        
-        // Also try absolute path from source
-        if (!QFile::exists(schemaPath)) {
-            schemaPath = "/home/yassin/UniversityApp-1/db/sqlite_create.sql";
-        }
-        
-        if (QFile::exists(schemaPath)) {
-            if (!db.executeScript(schemaPath)) {
-                QMessageBox::warning(nullptr, "Database Warning", 
-                                   "Failed to create database schema. Some features may not work.");
-            } else {
-                // Load seed data
-                QString seedPath = appDir + "/../db/seed_data.sql";
-                if (!QFile::exists(seedPath)) {
-                    seedPath = "db/seed_data.sql";
-                }
-                if (!QFile::exists(seedPath)) {
-                    seedPath = "/home/yassin/UniversityApp-1/db/seed_data.sql";
-                }
-                
-                if (QFile::exists(seedPath)) {
-                    db.executeScript(seedPath);
-                }
-            }
-        } else {
+    // Try alternative paths for schema
+    if (!QFile::exists(schemaPath)) {
+        schemaPath = "db/sqlite_create_old.sql";
+    }
+    if (!QFile::exists(schemaPath)) {
+        QString altPath = QStandardPaths::locate(QStandardPaths::AppDataLocation, "sqlite_create_old.sql");
+        schemaPath = altPath;
+    }
+    // Also try absolute path from source
+    if (!QFile::exists(schemaPath)) {
+        schemaPath = "/home/yassin/UniversityApp-1/db/sqlite_create_old.sql";
+    }
+    
+    // Always ensure schema exists (idempotent CREATE TABLE IF NOT EXISTS)
+    if (QFile::exists(schemaPath)) {
+        if (!db.executeScript(schemaPath)) {
             QMessageBox::warning(nullptr, "Database Warning", 
-                               "Schema file not found. Database will be created on first use.");
+                               "Failed to create or update database schema. Some features may not work.");
         }
+    } else {
+        QMessageBox::warning(nullptr, "Database Warning", 
+                           "Schema file not found. Database will be created on first use.");
+    }
+    
+    // Always apply seed data (INSERT OR REPLACE makes it idempotent for our key rows)
+    QString seedPath = appDir + "/../db/seed_data.sql";
+    if (!QFile::exists(seedPath)) {
+        seedPath = "db/seed_data.sql";
+    }
+    if (!QFile::exists(seedPath)) {
+        seedPath = "/home/yassin/UniversityApp-1/db/seed_data.sql";
+    }
+    if (QFile::exists(seedPath)) {
+        db.executeScript(seedPath);
+    }
+
+    // Lightweight migration for profile images: add column and change-request table if needed
+    {
+        QSqlQuery q(db.database());
+        q.exec("ALTER TABLE students ADD COLUMN profile_image_path TEXT");
+    }
+    {
+        QSqlQuery q(db.database());
+        q.exec(
+            "CREATE TABLE IF NOT EXISTS profile_image_change_requests ("
+            "  id INTEGER PRIMARY KEY AUTOINCREMENT,"
+            "  student_id INTEGER NOT NULL,"
+            "  old_image_path TEXT,"
+            "  new_image_path TEXT NOT NULL,"
+            "  status TEXT CHECK(status IN ('pending','approved','rejected')) DEFAULT 'pending',"
+            "  requested_at TEXT DEFAULT CURRENT_TIMESTAMP,"
+            "  reviewed_at TEXT,"
+            "  reviewed_by_admin_id INTEGER,"
+            "  FOREIGN KEY (student_id) REFERENCES students(id) ON DELETE CASCADE"
+            ")"
+        );
     }
     
     return true;

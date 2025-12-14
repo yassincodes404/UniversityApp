@@ -1,0 +1,200 @@
+[
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/NCTU_SIS_autogen/mocs_compilation.cpp.o -c /home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/mocs_compilation.cpp",
+  "file": "/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/NCTU_SIS_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/main.cpp.o -c /home/yassin/UniversityApp-1/app/main.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/main.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/main.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/AppMainWindow/MainWindow.cpp.o -c /home/yassin/UniversityApp-1/app/AppMainWindow/MainWindow.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/AppMainWindow/MainWindow.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/AppMainWindow/MainWindow.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/Login/LoginController.cpp.o -c /home/yassin/UniversityApp-1/app/Login/LoginController.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/Login/LoginController.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/Login/LoginController.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/AdminWindow/AdminWindow.cpp.o -c /home/yassin/UniversityApp-1/app/AdminWindow/AdminWindow.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/AdminWindow/AdminWindow.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/AdminWindow/AdminWindow.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/StudentWindow/StudentWindow.cpp.o -c /home/yassin/UniversityApp-1/app/StudentWindow/StudentWindow.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/StudentWindow/StudentWindow.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/StudentWindow/StudentWindow.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/DoctorWindow/DoctorWindow.cpp.o -c /home/yassin/UniversityApp-1/app/DoctorWindow/DoctorWindow.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/DoctorWindow/DoctorWindow.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/DoctorWindow/DoctorWindow.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/Models/Student.cpp.o -c /home/yassin/UniversityApp-1/app/Models/Student.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/Models/Student.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/Models/Student.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/Models/Course.cpp.o -c /home/yassin/UniversityApp-1/app/Models/Course.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/Models/Course.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/Models/Course.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/Models/Doctor.cpp.o -c /home/yassin/UniversityApp-1/app/Models/Doctor.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/Models/Doctor.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/Models/Doctor.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/Models/Enrollment.cpp.o -c /home/yassin/UniversityApp-1/app/Models/Enrollment.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/Models/Enrollment.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/Models/Enrollment.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/Models/Grade.cpp.o -c /home/yassin/UniversityApp-1/app/Models/Grade.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/Models/Grade.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/Models/Grade.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/Models/Attendance.cpp.o -c /home/yassin/UniversityApp-1/app/Models/Attendance.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/Models/Attendance.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/Models/Attendance.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/Models/Payment.cpp.o -c /home/yassin/UniversityApp-1/app/Models/Payment.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/Models/Payment.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/Models/Payment.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/Models/News.cpp.o -c /home/yassin/UniversityApp-1/app/Models/News.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/Models/News.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/Models/News.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/Models/Exam.cpp.o -c /home/yassin/UniversityApp-1/app/Models/Exam.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/Models/Exam.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/Models/Exam.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/DAL/DatabaseManager.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/DatabaseManager.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/DAL/DatabaseManager.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/DAL/DatabaseManager.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/DAL/StudentRepo.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/StudentRepo.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/DAL/StudentRepo.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/DAL/StudentRepo.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/DAL/CourseRepo.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/CourseRepo.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/DAL/CourseRepo.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/DAL/CourseRepo.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/DAL/EnrollmentRepo.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/EnrollmentRepo.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/DAL/EnrollmentRepo.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/DAL/EnrollmentRepo.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/DAL/GradeRepo.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/GradeRepo.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/DAL/GradeRepo.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/DAL/GradeRepo.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/DAL/AttendanceRepo.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/AttendanceRepo.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/DAL/AttendanceRepo.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/DAL/AttendanceRepo.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/DAL/PaymentRepo.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/PaymentRepo.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/DAL/PaymentRepo.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/DAL/PaymentRepo.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/DAL/NewsRepo.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/NewsRepo.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/DAL/NewsRepo.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/DAL/NewsRepo.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/DAL/ExamRepo.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/ExamRepo.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/DAL/ExamRepo.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/DAL/ExamRepo.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/DAL/DoctorRepo.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/DoctorRepo.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/DAL/DoctorRepo.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/DAL/DoctorRepo.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/DAL/AdminRepo.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/AdminRepo.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/DAL/AdminRepo.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/DAL/AdminRepo.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/Services/AuthService.cpp.o -c /home/yassin/UniversityApp-1/app/Services/AuthService.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/Services/AuthService.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/Services/AuthService.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/Services/GradingService.cpp.o -c /home/yassin/UniversityApp-1/app/Services/GradingService.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/Services/GradingService.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/Services/GradingService.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/Services/AttendanceService.cpp.o -c /home/yassin/UniversityApp-1/app/Services/AttendanceService.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/Services/AttendanceService.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/Services/AttendanceService.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/Services/PMDService.cpp.o -c /home/yassin/UniversityApp-1/app/Services/PMDService.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/Services/PMDService.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/Services/PMDService.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/Utils/PasswordHasher.cpp.o -c /home/yassin/UniversityApp-1/app/Utils/PasswordHasher.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/Utils/PasswordHasher.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/Utils/PasswordHasher.cpp.o"
+},
+{
+  "directory": "/home/yassin/UniversityApp-1/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/include -I/home/yassin/UniversityApp-1/app -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql -g -std=gnu++17 -fPIC -o CMakeFiles/NCTU_SIS.dir/app/Utils/Validators.cpp.o -c /home/yassin/UniversityApp-1/app/Utils/Validators.cpp",
+  "file": "/home/yassin/UniversityApp-1/app/Utils/Validators.cpp",
+  "output": "CMakeFiles/NCTU_SIS.dir/app/Utils/Validators.cpp.o"
+}
+]

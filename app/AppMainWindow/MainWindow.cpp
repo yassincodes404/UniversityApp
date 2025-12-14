@@ -5,15 +5,20 @@
 #include "../DoctorWindow/DoctorWindow.h"
 #include <QStackedWidget>
 #include <QVBoxLayout>
+#include <QHBoxLayout>
 #include <QWidget>
+#include <QLabel>
+#include <QPixmap>
+#include <QCoreApplication>
+#include <QFile>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , m_stackedWidget(new QStackedWidget(this))
     , m_loginController(new LoginController(this))
+    , m_logoLabel(nullptr)
 {
     setupUI();
-    setCentralWidget(m_stackedWidget);
     
     connect(m_loginController, &LoginController::loginSuccess, 
             this, &MainWindow::onLoginSuccess);
@@ -31,6 +36,45 @@ MainWindow::~MainWindow()
 
 void MainWindow::setupUI()
 {
+    QWidget* central = new QWidget(this);
+    QVBoxLayout* mainLayout = new QVBoxLayout(central);
+
+    // Top area with university logo centered
+    QHBoxLayout* logoLayout = new QHBoxLayout;
+    m_logoLabel = new QLabel(this);
+    m_logoLabel->setAlignment(Qt::AlignCenter);
+
+    // Try to load logo from common locations relative to the executable
+    QPixmap logoPixmap;
+    const QString appDir = QCoreApplication::applicationDirPath();
+    const QStringList candidatePaths = {
+        appDir + "/resources/university_logo.png",      // if resources copied next to executable
+        appDir + "/../resources/university_logo.png"    // if running from build/ and resources/ is at project root
+    };
+    for (const QString& path : candidatePaths) {
+        if (QFile::exists(path)) {
+            logoPixmap.load(path);
+            break;
+        }
+    }
+
+    if (!logoPixmap.isNull()) {
+        // Scale nicely while keeping aspect ratio
+        m_logoLabel->setPixmap(logoPixmap.scaled(160, 160, Qt::KeepAspectRatio, Qt::SmoothTransformation));
+    } else {
+        // Fallback text if image is not found
+        m_logoLabel->setText("New Cairo Technological University");
+        m_logoLabel->setStyleSheet("font-size: 20px; font-weight: bold;");
+    }
+
+    logoLayout->addStretch();
+    logoLayout->addWidget(m_logoLabel);
+    logoLayout->addStretch();
+
+    mainLayout->addLayout(logoLayout);
+    mainLayout->addWidget(m_stackedWidget);
+
+    setCentralWidget(central);
 }
 
 void MainWindow::onLoginSuccess(int userId, UserRole role, const QString& name)

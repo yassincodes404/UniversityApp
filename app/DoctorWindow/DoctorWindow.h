@@ -8,6 +8,8 @@ QT_BEGIN_NAMESPACE
 class QTableView;
 class QPushButton;
 class QComboBox;
+class QLineEdit;
+class QModelIndex;
 QT_END_NAMESPACE
 
 class DoctorWindow : public QMainWindow
@@ -27,6 +29,7 @@ private slots:
     void onEnterGrades();
     void onMarkAttendance();
     void refreshData();
+    void onGradeCellDoubleClicked(const QModelIndex &index);
 
 private:
     void setupUI();
@@ -40,6 +43,8 @@ private:
     QComboBox* m_courseCombo;
     QTableView* m_studentsTable;
     QTableView* m_gradesTable;
+    QLineEdit* m_studentSearchEdit;
+    QLineEdit* m_gradeSearchEdit;
 };
 
 #endif // DOCTORWINDOW_H

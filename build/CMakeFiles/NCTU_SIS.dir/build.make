@@ -73,470 +73,470 @@ NCTU_SIS_autogen/timestamp: /usr/lib/qt5/bin/moc
 NCTU_SIS_autogen/timestamp: /usr/lib/qt5/bin/uic
 NCTU_SIS_autogen/timestamp: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target NCTU_SIS"
-	/usr/bin/cmake -E cmake_autogen /home/yassin/UniversityApp-1/build/CMakeFiles/NCTU_SIS_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E cmake_autogen /home/yassin/UniversityApp-1/build/CMakeFiles/NCTU_SIS_autogen.dir/AutogenInfo.json Debug
 	/usr/bin/cmake -E touch /home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/timestamp
 
 CMakeFiles/NCTU_SIS.dir/NCTU_SIS_autogen/mocs_compilation.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/NCTU_SIS_autogen/mocs_compilation.cpp.o: NCTU_SIS_autogen/mocs_compilation.cpp
 CMakeFiles/NCTU_SIS.dir/NCTU_SIS_autogen/mocs_compilation.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/NCTU_SIS.dir/NCTU_SIS_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/NCTU_SIS_autogen/mocs_compilation.cpp.o -MF CMakeFiles/NCTU_SIS.dir/NCTU_SIS_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/NCTU_SIS_autogen/mocs_compilation.cpp.o -c /home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/mocs_compilation.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/NCTU_SIS_autogen/mocs_compilation.cpp.o -MF CMakeFiles/NCTU_SIS.dir/NCTU_SIS_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/NCTU_SIS_autogen/mocs_compilation.cpp.o -c /home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/mocs_compilation.cpp
 
 CMakeFiles/NCTU_SIS.dir/NCTU_SIS_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/NCTU_SIS_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/mocs_compilation.cpp > CMakeFiles/NCTU_SIS.dir/NCTU_SIS_autogen/mocs_compilation.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/mocs_compilation.cpp > CMakeFiles/NCTU_SIS.dir/NCTU_SIS_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/NCTU_SIS_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/NCTU_SIS_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/mocs_compilation.cpp -o CMakeFiles/NCTU_SIS.dir/NCTU_SIS_autogen/mocs_compilation.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/build/NCTU_SIS_autogen/mocs_compilation.cpp -o CMakeFiles/NCTU_SIS.dir/NCTU_SIS_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/main.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/main.cpp.o: /home/yassin/UniversityApp-1/app/main.cpp
 CMakeFiles/NCTU_SIS.dir/app/main.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/main.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/main.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/main.cpp.o -c /home/yassin/UniversityApp-1/app/main.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/main.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/main.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/main.cpp.o -c /home/yassin/UniversityApp-1/app/main.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/main.cpp > CMakeFiles/NCTU_SIS.dir/app/main.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/main.cpp > CMakeFiles/NCTU_SIS.dir/app/main.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/main.cpp -o CMakeFiles/NCTU_SIS.dir/app/main.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/main.cpp -o CMakeFiles/NCTU_SIS.dir/app/main.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/AppMainWindow/MainWindow.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/AppMainWindow/MainWindow.cpp.o: /home/yassin/UniversityApp-1/app/AppMainWindow/MainWindow.cpp
 CMakeFiles/NCTU_SIS.dir/app/AppMainWindow/MainWindow.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/AppMainWindow/MainWindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/AppMainWindow/MainWindow.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/AppMainWindow/MainWindow.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/AppMainWindow/MainWindow.cpp.o -c /home/yassin/UniversityApp-1/app/AppMainWindow/MainWindow.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/AppMainWindow/MainWindow.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/AppMainWindow/MainWindow.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/AppMainWindow/MainWindow.cpp.o -c /home/yassin/UniversityApp-1/app/AppMainWindow/MainWindow.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/AppMainWindow/MainWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/AppMainWindow/MainWindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/AppMainWindow/MainWindow.cpp > CMakeFiles/NCTU_SIS.dir/app/AppMainWindow/MainWindow.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/AppMainWindow/MainWindow.cpp > CMakeFiles/NCTU_SIS.dir/app/AppMainWindow/MainWindow.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/AppMainWindow/MainWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/AppMainWindow/MainWindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/AppMainWindow/MainWindow.cpp -o CMakeFiles/NCTU_SIS.dir/app/AppMainWindow/MainWindow.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/AppMainWindow/MainWindow.cpp -o CMakeFiles/NCTU_SIS.dir/app/AppMainWindow/MainWindow.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/Login/LoginController.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/Login/LoginController.cpp.o: /home/yassin/UniversityApp-1/app/Login/LoginController.cpp
 CMakeFiles/NCTU_SIS.dir/app/Login/LoginController.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/Login/LoginController.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Login/LoginController.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Login/LoginController.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Login/LoginController.cpp.o -c /home/yassin/UniversityApp-1/app/Login/LoginController.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Login/LoginController.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Login/LoginController.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Login/LoginController.cpp.o -c /home/yassin/UniversityApp-1/app/Login/LoginController.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/Login/LoginController.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/Login/LoginController.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Login/LoginController.cpp > CMakeFiles/NCTU_SIS.dir/app/Login/LoginController.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Login/LoginController.cpp > CMakeFiles/NCTU_SIS.dir/app/Login/LoginController.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/Login/LoginController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/Login/LoginController.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Login/LoginController.cpp -o CMakeFiles/NCTU_SIS.dir/app/Login/LoginController.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Login/LoginController.cpp -o CMakeFiles/NCTU_SIS.dir/app/Login/LoginController.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/AdminWindow/AdminWindow.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/AdminWindow/AdminWindow.cpp.o: /home/yassin/UniversityApp-1/app/AdminWindow/AdminWindow.cpp
 CMakeFiles/NCTU_SIS.dir/app/AdminWindow/AdminWindow.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/AdminWindow/AdminWindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/AdminWindow/AdminWindow.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/AdminWindow/AdminWindow.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/AdminWindow/AdminWindow.cpp.o -c /home/yassin/UniversityApp-1/app/AdminWindow/AdminWindow.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/AdminWindow/AdminWindow.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/AdminWindow/AdminWindow.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/AdminWindow/AdminWindow.cpp.o -c /home/yassin/UniversityApp-1/app/AdminWindow/AdminWindow.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/AdminWindow/AdminWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/AdminWindow/AdminWindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/AdminWindow/AdminWindow.cpp > CMakeFiles/NCTU_SIS.dir/app/AdminWindow/AdminWindow.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/AdminWindow/AdminWindow.cpp > CMakeFiles/NCTU_SIS.dir/app/AdminWindow/AdminWindow.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/AdminWindow/AdminWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/AdminWindow/AdminWindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/AdminWindow/AdminWindow.cpp -o CMakeFiles/NCTU_SIS.dir/app/AdminWindow/AdminWindow.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/AdminWindow/AdminWindow.cpp -o CMakeFiles/NCTU_SIS.dir/app/AdminWindow/AdminWindow.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/StudentWindow/StudentWindow.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/StudentWindow/StudentWindow.cpp.o: /home/yassin/UniversityApp-1/app/StudentWindow/StudentWindow.cpp
 CMakeFiles/NCTU_SIS.dir/app/StudentWindow/StudentWindow.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/StudentWindow/StudentWindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/StudentWindow/StudentWindow.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/StudentWindow/StudentWindow.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/StudentWindow/StudentWindow.cpp.o -c /home/yassin/UniversityApp-1/app/StudentWindow/StudentWindow.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/StudentWindow/StudentWindow.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/StudentWindow/StudentWindow.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/StudentWindow/StudentWindow.cpp.o -c /home/yassin/UniversityApp-1/app/StudentWindow/StudentWindow.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/StudentWindow/StudentWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/StudentWindow/StudentWindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/StudentWindow/StudentWindow.cpp > CMakeFiles/NCTU_SIS.dir/app/StudentWindow/StudentWindow.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/StudentWindow/StudentWindow.cpp > CMakeFiles/NCTU_SIS.dir/app/StudentWindow/StudentWindow.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/StudentWindow/StudentWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/StudentWindow/StudentWindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/StudentWindow/StudentWindow.cpp -o CMakeFiles/NCTU_SIS.dir/app/StudentWindow/StudentWindow.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/StudentWindow/StudentWindow.cpp -o CMakeFiles/NCTU_SIS.dir/app/StudentWindow/StudentWindow.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/DoctorWindow/DoctorWindow.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/DoctorWindow/DoctorWindow.cpp.o: /home/yassin/UniversityApp-1/app/DoctorWindow/DoctorWindow.cpp
 CMakeFiles/NCTU_SIS.dir/app/DoctorWindow/DoctorWindow.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/DoctorWindow/DoctorWindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/DoctorWindow/DoctorWindow.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/DoctorWindow/DoctorWindow.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/DoctorWindow/DoctorWindow.cpp.o -c /home/yassin/UniversityApp-1/app/DoctorWindow/DoctorWindow.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/DoctorWindow/DoctorWindow.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/DoctorWindow/DoctorWindow.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/DoctorWindow/DoctorWindow.cpp.o -c /home/yassin/UniversityApp-1/app/DoctorWindow/DoctorWindow.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/DoctorWindow/DoctorWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/DoctorWindow/DoctorWindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/DoctorWindow/DoctorWindow.cpp > CMakeFiles/NCTU_SIS.dir/app/DoctorWindow/DoctorWindow.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/DoctorWindow/DoctorWindow.cpp > CMakeFiles/NCTU_SIS.dir/app/DoctorWindow/DoctorWindow.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/DoctorWindow/DoctorWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/DoctorWindow/DoctorWindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/DoctorWindow/DoctorWindow.cpp -o CMakeFiles/NCTU_SIS.dir/app/DoctorWindow/DoctorWindow.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/DoctorWindow/DoctorWindow.cpp -o CMakeFiles/NCTU_SIS.dir/app/DoctorWindow/DoctorWindow.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/Models/Student.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/Models/Student.cpp.o: /home/yassin/UniversityApp-1/app/Models/Student.cpp
 CMakeFiles/NCTU_SIS.dir/app/Models/Student.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/Models/Student.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Models/Student.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Models/Student.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Models/Student.cpp.o -c /home/yassin/UniversityApp-1/app/Models/Student.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Models/Student.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Models/Student.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Models/Student.cpp.o -c /home/yassin/UniversityApp-1/app/Models/Student.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/Models/Student.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/Models/Student.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Models/Student.cpp > CMakeFiles/NCTU_SIS.dir/app/Models/Student.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Models/Student.cpp > CMakeFiles/NCTU_SIS.dir/app/Models/Student.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/Models/Student.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/Models/Student.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Models/Student.cpp -o CMakeFiles/NCTU_SIS.dir/app/Models/Student.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Models/Student.cpp -o CMakeFiles/NCTU_SIS.dir/app/Models/Student.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/Models/Course.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/Models/Course.cpp.o: /home/yassin/UniversityApp-1/app/Models/Course.cpp
 CMakeFiles/NCTU_SIS.dir/app/Models/Course.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/Models/Course.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Models/Course.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Models/Course.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Models/Course.cpp.o -c /home/yassin/UniversityApp-1/app/Models/Course.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Models/Course.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Models/Course.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Models/Course.cpp.o -c /home/yassin/UniversityApp-1/app/Models/Course.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/Models/Course.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/Models/Course.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Models/Course.cpp > CMakeFiles/NCTU_SIS.dir/app/Models/Course.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Models/Course.cpp > CMakeFiles/NCTU_SIS.dir/app/Models/Course.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/Models/Course.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/Models/Course.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Models/Course.cpp -o CMakeFiles/NCTU_SIS.dir/app/Models/Course.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Models/Course.cpp -o CMakeFiles/NCTU_SIS.dir/app/Models/Course.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/Models/Doctor.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/Models/Doctor.cpp.o: /home/yassin/UniversityApp-1/app/Models/Doctor.cpp
 CMakeFiles/NCTU_SIS.dir/app/Models/Doctor.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/Models/Doctor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Models/Doctor.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Models/Doctor.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Models/Doctor.cpp.o -c /home/yassin/UniversityApp-1/app/Models/Doctor.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Models/Doctor.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Models/Doctor.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Models/Doctor.cpp.o -c /home/yassin/UniversityApp-1/app/Models/Doctor.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/Models/Doctor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/Models/Doctor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Models/Doctor.cpp > CMakeFiles/NCTU_SIS.dir/app/Models/Doctor.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Models/Doctor.cpp > CMakeFiles/NCTU_SIS.dir/app/Models/Doctor.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/Models/Doctor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/Models/Doctor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Models/Doctor.cpp -o CMakeFiles/NCTU_SIS.dir/app/Models/Doctor.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Models/Doctor.cpp -o CMakeFiles/NCTU_SIS.dir/app/Models/Doctor.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/Models/Enrollment.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/Models/Enrollment.cpp.o: /home/yassin/UniversityApp-1/app/Models/Enrollment.cpp
 CMakeFiles/NCTU_SIS.dir/app/Models/Enrollment.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/Models/Enrollment.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Models/Enrollment.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Models/Enrollment.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Models/Enrollment.cpp.o -c /home/yassin/UniversityApp-1/app/Models/Enrollment.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Models/Enrollment.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Models/Enrollment.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Models/Enrollment.cpp.o -c /home/yassin/UniversityApp-1/app/Models/Enrollment.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/Models/Enrollment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/Models/Enrollment.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Models/Enrollment.cpp > CMakeFiles/NCTU_SIS.dir/app/Models/Enrollment.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Models/Enrollment.cpp > CMakeFiles/NCTU_SIS.dir/app/Models/Enrollment.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/Models/Enrollment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/Models/Enrollment.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Models/Enrollment.cpp -o CMakeFiles/NCTU_SIS.dir/app/Models/Enrollment.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Models/Enrollment.cpp -o CMakeFiles/NCTU_SIS.dir/app/Models/Enrollment.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/Models/Grade.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/Models/Grade.cpp.o: /home/yassin/UniversityApp-1/app/Models/Grade.cpp
 CMakeFiles/NCTU_SIS.dir/app/Models/Grade.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/Models/Grade.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Models/Grade.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Models/Grade.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Models/Grade.cpp.o -c /home/yassin/UniversityApp-1/app/Models/Grade.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Models/Grade.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Models/Grade.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Models/Grade.cpp.o -c /home/yassin/UniversityApp-1/app/Models/Grade.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/Models/Grade.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/Models/Grade.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Models/Grade.cpp > CMakeFiles/NCTU_SIS.dir/app/Models/Grade.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Models/Grade.cpp > CMakeFiles/NCTU_SIS.dir/app/Models/Grade.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/Models/Grade.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/Models/Grade.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Models/Grade.cpp -o CMakeFiles/NCTU_SIS.dir/app/Models/Grade.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Models/Grade.cpp -o CMakeFiles/NCTU_SIS.dir/app/Models/Grade.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/Models/Attendance.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/Models/Attendance.cpp.o: /home/yassin/UniversityApp-1/app/Models/Attendance.cpp
 CMakeFiles/NCTU_SIS.dir/app/Models/Attendance.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/Models/Attendance.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Models/Attendance.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Models/Attendance.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Models/Attendance.cpp.o -c /home/yassin/UniversityApp-1/app/Models/Attendance.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Models/Attendance.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Models/Attendance.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Models/Attendance.cpp.o -c /home/yassin/UniversityApp-1/app/Models/Attendance.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/Models/Attendance.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/Models/Attendance.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Models/Attendance.cpp > CMakeFiles/NCTU_SIS.dir/app/Models/Attendance.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Models/Attendance.cpp > CMakeFiles/NCTU_SIS.dir/app/Models/Attendance.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/Models/Attendance.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/Models/Attendance.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Models/Attendance.cpp -o CMakeFiles/NCTU_SIS.dir/app/Models/Attendance.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Models/Attendance.cpp -o CMakeFiles/NCTU_SIS.dir/app/Models/Attendance.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/Models/Payment.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/Models/Payment.cpp.o: /home/yassin/UniversityApp-1/app/Models/Payment.cpp
 CMakeFiles/NCTU_SIS.dir/app/Models/Payment.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/Models/Payment.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Models/Payment.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Models/Payment.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Models/Payment.cpp.o -c /home/yassin/UniversityApp-1/app/Models/Payment.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Models/Payment.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Models/Payment.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Models/Payment.cpp.o -c /home/yassin/UniversityApp-1/app/Models/Payment.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/Models/Payment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/Models/Payment.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Models/Payment.cpp > CMakeFiles/NCTU_SIS.dir/app/Models/Payment.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Models/Payment.cpp > CMakeFiles/NCTU_SIS.dir/app/Models/Payment.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/Models/Payment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/Models/Payment.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Models/Payment.cpp -o CMakeFiles/NCTU_SIS.dir/app/Models/Payment.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Models/Payment.cpp -o CMakeFiles/NCTU_SIS.dir/app/Models/Payment.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/Models/News.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/Models/News.cpp.o: /home/yassin/UniversityApp-1/app/Models/News.cpp
 CMakeFiles/NCTU_SIS.dir/app/Models/News.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/Models/News.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Models/News.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Models/News.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Models/News.cpp.o -c /home/yassin/UniversityApp-1/app/Models/News.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Models/News.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Models/News.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Models/News.cpp.o -c /home/yassin/UniversityApp-1/app/Models/News.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/Models/News.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/Models/News.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Models/News.cpp > CMakeFiles/NCTU_SIS.dir/app/Models/News.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Models/News.cpp > CMakeFiles/NCTU_SIS.dir/app/Models/News.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/Models/News.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/Models/News.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Models/News.cpp -o CMakeFiles/NCTU_SIS.dir/app/Models/News.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Models/News.cpp -o CMakeFiles/NCTU_SIS.dir/app/Models/News.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/Models/Exam.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/Models/Exam.cpp.o: /home/yassin/UniversityApp-1/app/Models/Exam.cpp
 CMakeFiles/NCTU_SIS.dir/app/Models/Exam.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/Models/Exam.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Models/Exam.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Models/Exam.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Models/Exam.cpp.o -c /home/yassin/UniversityApp-1/app/Models/Exam.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Models/Exam.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Models/Exam.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Models/Exam.cpp.o -c /home/yassin/UniversityApp-1/app/Models/Exam.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/Models/Exam.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/Models/Exam.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Models/Exam.cpp > CMakeFiles/NCTU_SIS.dir/app/Models/Exam.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Models/Exam.cpp > CMakeFiles/NCTU_SIS.dir/app/Models/Exam.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/Models/Exam.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/Models/Exam.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Models/Exam.cpp -o CMakeFiles/NCTU_SIS.dir/app/Models/Exam.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Models/Exam.cpp -o CMakeFiles/NCTU_SIS.dir/app/Models/Exam.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/DatabaseManager.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/DAL/DatabaseManager.cpp.o: /home/yassin/UniversityApp-1/app/DAL/DatabaseManager.cpp
 CMakeFiles/NCTU_SIS.dir/app/DAL/DatabaseManager.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/DAL/DatabaseManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/DAL/DatabaseManager.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/DAL/DatabaseManager.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/DAL/DatabaseManager.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/DatabaseManager.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/DAL/DatabaseManager.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/DAL/DatabaseManager.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/DAL/DatabaseManager.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/DatabaseManager.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/DatabaseManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/DAL/DatabaseManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/DAL/DatabaseManager.cpp > CMakeFiles/NCTU_SIS.dir/app/DAL/DatabaseManager.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/DAL/DatabaseManager.cpp > CMakeFiles/NCTU_SIS.dir/app/DAL/DatabaseManager.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/DatabaseManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/DAL/DatabaseManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/DAL/DatabaseManager.cpp -o CMakeFiles/NCTU_SIS.dir/app/DAL/DatabaseManager.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/DAL/DatabaseManager.cpp -o CMakeFiles/NCTU_SIS.dir/app/DAL/DatabaseManager.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/StudentRepo.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/DAL/StudentRepo.cpp.o: /home/yassin/UniversityApp-1/app/DAL/StudentRepo.cpp
 CMakeFiles/NCTU_SIS.dir/app/DAL/StudentRepo.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/DAL/StudentRepo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/DAL/StudentRepo.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/DAL/StudentRepo.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/DAL/StudentRepo.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/StudentRepo.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/DAL/StudentRepo.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/DAL/StudentRepo.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/DAL/StudentRepo.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/StudentRepo.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/StudentRepo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/DAL/StudentRepo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/DAL/StudentRepo.cpp > CMakeFiles/NCTU_SIS.dir/app/DAL/StudentRepo.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/DAL/StudentRepo.cpp > CMakeFiles/NCTU_SIS.dir/app/DAL/StudentRepo.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/StudentRepo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/DAL/StudentRepo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/DAL/StudentRepo.cpp -o CMakeFiles/NCTU_SIS.dir/app/DAL/StudentRepo.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/DAL/StudentRepo.cpp -o CMakeFiles/NCTU_SIS.dir/app/DAL/StudentRepo.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/CourseRepo.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/DAL/CourseRepo.cpp.o: /home/yassin/UniversityApp-1/app/DAL/CourseRepo.cpp
 CMakeFiles/NCTU_SIS.dir/app/DAL/CourseRepo.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/DAL/CourseRepo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/DAL/CourseRepo.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/DAL/CourseRepo.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/DAL/CourseRepo.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/CourseRepo.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/DAL/CourseRepo.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/DAL/CourseRepo.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/DAL/CourseRepo.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/CourseRepo.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/CourseRepo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/DAL/CourseRepo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/DAL/CourseRepo.cpp > CMakeFiles/NCTU_SIS.dir/app/DAL/CourseRepo.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/DAL/CourseRepo.cpp > CMakeFiles/NCTU_SIS.dir/app/DAL/CourseRepo.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/CourseRepo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/DAL/CourseRepo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/DAL/CourseRepo.cpp -o CMakeFiles/NCTU_SIS.dir/app/DAL/CourseRepo.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/DAL/CourseRepo.cpp -o CMakeFiles/NCTU_SIS.dir/app/DAL/CourseRepo.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/EnrollmentRepo.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/DAL/EnrollmentRepo.cpp.o: /home/yassin/UniversityApp-1/app/DAL/EnrollmentRepo.cpp
 CMakeFiles/NCTU_SIS.dir/app/DAL/EnrollmentRepo.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/DAL/EnrollmentRepo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/DAL/EnrollmentRepo.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/DAL/EnrollmentRepo.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/DAL/EnrollmentRepo.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/EnrollmentRepo.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/DAL/EnrollmentRepo.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/DAL/EnrollmentRepo.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/DAL/EnrollmentRepo.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/EnrollmentRepo.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/EnrollmentRepo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/DAL/EnrollmentRepo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/DAL/EnrollmentRepo.cpp > CMakeFiles/NCTU_SIS.dir/app/DAL/EnrollmentRepo.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/DAL/EnrollmentRepo.cpp > CMakeFiles/NCTU_SIS.dir/app/DAL/EnrollmentRepo.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/EnrollmentRepo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/DAL/EnrollmentRepo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/DAL/EnrollmentRepo.cpp -o CMakeFiles/NCTU_SIS.dir/app/DAL/EnrollmentRepo.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/DAL/EnrollmentRepo.cpp -o CMakeFiles/NCTU_SIS.dir/app/DAL/EnrollmentRepo.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/GradeRepo.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/DAL/GradeRepo.cpp.o: /home/yassin/UniversityApp-1/app/DAL/GradeRepo.cpp
 CMakeFiles/NCTU_SIS.dir/app/DAL/GradeRepo.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/DAL/GradeRepo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/DAL/GradeRepo.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/DAL/GradeRepo.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/DAL/GradeRepo.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/GradeRepo.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/DAL/GradeRepo.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/DAL/GradeRepo.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/DAL/GradeRepo.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/GradeRepo.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/GradeRepo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/DAL/GradeRepo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/DAL/GradeRepo.cpp > CMakeFiles/NCTU_SIS.dir/app/DAL/GradeRepo.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/DAL/GradeRepo.cpp > CMakeFiles/NCTU_SIS.dir/app/DAL/GradeRepo.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/GradeRepo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/DAL/GradeRepo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/DAL/GradeRepo.cpp -o CMakeFiles/NCTU_SIS.dir/app/DAL/GradeRepo.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/DAL/GradeRepo.cpp -o CMakeFiles/NCTU_SIS.dir/app/DAL/GradeRepo.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/AttendanceRepo.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/DAL/AttendanceRepo.cpp.o: /home/yassin/UniversityApp-1/app/DAL/AttendanceRepo.cpp
 CMakeFiles/NCTU_SIS.dir/app/DAL/AttendanceRepo.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/DAL/AttendanceRepo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/DAL/AttendanceRepo.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/DAL/AttendanceRepo.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/DAL/AttendanceRepo.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/AttendanceRepo.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/DAL/AttendanceRepo.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/DAL/AttendanceRepo.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/DAL/AttendanceRepo.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/AttendanceRepo.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/AttendanceRepo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/DAL/AttendanceRepo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/DAL/AttendanceRepo.cpp > CMakeFiles/NCTU_SIS.dir/app/DAL/AttendanceRepo.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/DAL/AttendanceRepo.cpp > CMakeFiles/NCTU_SIS.dir/app/DAL/AttendanceRepo.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/AttendanceRepo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/DAL/AttendanceRepo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/DAL/AttendanceRepo.cpp -o CMakeFiles/NCTU_SIS.dir/app/DAL/AttendanceRepo.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/DAL/AttendanceRepo.cpp -o CMakeFiles/NCTU_SIS.dir/app/DAL/AttendanceRepo.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/PaymentRepo.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/DAL/PaymentRepo.cpp.o: /home/yassin/UniversityApp-1/app/DAL/PaymentRepo.cpp
 CMakeFiles/NCTU_SIS.dir/app/DAL/PaymentRepo.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/DAL/PaymentRepo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/DAL/PaymentRepo.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/DAL/PaymentRepo.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/DAL/PaymentRepo.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/PaymentRepo.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/DAL/PaymentRepo.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/DAL/PaymentRepo.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/DAL/PaymentRepo.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/PaymentRepo.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/PaymentRepo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/DAL/PaymentRepo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/DAL/PaymentRepo.cpp > CMakeFiles/NCTU_SIS.dir/app/DAL/PaymentRepo.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/DAL/PaymentRepo.cpp > CMakeFiles/NCTU_SIS.dir/app/DAL/PaymentRepo.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/PaymentRepo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/DAL/PaymentRepo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/DAL/PaymentRepo.cpp -o CMakeFiles/NCTU_SIS.dir/app/DAL/PaymentRepo.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/DAL/PaymentRepo.cpp -o CMakeFiles/NCTU_SIS.dir/app/DAL/PaymentRepo.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/NewsRepo.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/DAL/NewsRepo.cpp.o: /home/yassin/UniversityApp-1/app/DAL/NewsRepo.cpp
 CMakeFiles/NCTU_SIS.dir/app/DAL/NewsRepo.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/DAL/NewsRepo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/DAL/NewsRepo.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/DAL/NewsRepo.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/DAL/NewsRepo.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/NewsRepo.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/DAL/NewsRepo.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/DAL/NewsRepo.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/DAL/NewsRepo.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/NewsRepo.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/NewsRepo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/DAL/NewsRepo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/DAL/NewsRepo.cpp > CMakeFiles/NCTU_SIS.dir/app/DAL/NewsRepo.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/DAL/NewsRepo.cpp > CMakeFiles/NCTU_SIS.dir/app/DAL/NewsRepo.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/NewsRepo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/DAL/NewsRepo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/DAL/NewsRepo.cpp -o CMakeFiles/NCTU_SIS.dir/app/DAL/NewsRepo.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/DAL/NewsRepo.cpp -o CMakeFiles/NCTU_SIS.dir/app/DAL/NewsRepo.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/ExamRepo.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/DAL/ExamRepo.cpp.o: /home/yassin/UniversityApp-1/app/DAL/ExamRepo.cpp
 CMakeFiles/NCTU_SIS.dir/app/DAL/ExamRepo.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/DAL/ExamRepo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/DAL/ExamRepo.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/DAL/ExamRepo.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/DAL/ExamRepo.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/ExamRepo.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/DAL/ExamRepo.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/DAL/ExamRepo.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/DAL/ExamRepo.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/ExamRepo.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/ExamRepo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/DAL/ExamRepo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/DAL/ExamRepo.cpp > CMakeFiles/NCTU_SIS.dir/app/DAL/ExamRepo.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/DAL/ExamRepo.cpp > CMakeFiles/NCTU_SIS.dir/app/DAL/ExamRepo.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/ExamRepo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/DAL/ExamRepo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/DAL/ExamRepo.cpp -o CMakeFiles/NCTU_SIS.dir/app/DAL/ExamRepo.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/DAL/ExamRepo.cpp -o CMakeFiles/NCTU_SIS.dir/app/DAL/ExamRepo.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/DoctorRepo.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/DAL/DoctorRepo.cpp.o: /home/yassin/UniversityApp-1/app/DAL/DoctorRepo.cpp
 CMakeFiles/NCTU_SIS.dir/app/DAL/DoctorRepo.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/DAL/DoctorRepo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/DAL/DoctorRepo.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/DAL/DoctorRepo.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/DAL/DoctorRepo.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/DoctorRepo.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/DAL/DoctorRepo.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/DAL/DoctorRepo.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/DAL/DoctorRepo.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/DoctorRepo.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/DoctorRepo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/DAL/DoctorRepo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/DAL/DoctorRepo.cpp > CMakeFiles/NCTU_SIS.dir/app/DAL/DoctorRepo.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/DAL/DoctorRepo.cpp > CMakeFiles/NCTU_SIS.dir/app/DAL/DoctorRepo.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/DoctorRepo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/DAL/DoctorRepo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/DAL/DoctorRepo.cpp -o CMakeFiles/NCTU_SIS.dir/app/DAL/DoctorRepo.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/DAL/DoctorRepo.cpp -o CMakeFiles/NCTU_SIS.dir/app/DAL/DoctorRepo.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/AdminRepo.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/DAL/AdminRepo.cpp.o: /home/yassin/UniversityApp-1/app/DAL/AdminRepo.cpp
 CMakeFiles/NCTU_SIS.dir/app/DAL/AdminRepo.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/DAL/AdminRepo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/DAL/AdminRepo.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/DAL/AdminRepo.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/DAL/AdminRepo.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/AdminRepo.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/DAL/AdminRepo.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/DAL/AdminRepo.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/DAL/AdminRepo.cpp.o -c /home/yassin/UniversityApp-1/app/DAL/AdminRepo.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/AdminRepo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/DAL/AdminRepo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/DAL/AdminRepo.cpp > CMakeFiles/NCTU_SIS.dir/app/DAL/AdminRepo.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/DAL/AdminRepo.cpp > CMakeFiles/NCTU_SIS.dir/app/DAL/AdminRepo.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/DAL/AdminRepo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/DAL/AdminRepo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/DAL/AdminRepo.cpp -o CMakeFiles/NCTU_SIS.dir/app/DAL/AdminRepo.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/DAL/AdminRepo.cpp -o CMakeFiles/NCTU_SIS.dir/app/DAL/AdminRepo.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/Services/AuthService.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/Services/AuthService.cpp.o: /home/yassin/UniversityApp-1/app/Services/AuthService.cpp
 CMakeFiles/NCTU_SIS.dir/app/Services/AuthService.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/Services/AuthService.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Services/AuthService.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Services/AuthService.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Services/AuthService.cpp.o -c /home/yassin/UniversityApp-1/app/Services/AuthService.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Services/AuthService.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Services/AuthService.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Services/AuthService.cpp.o -c /home/yassin/UniversityApp-1/app/Services/AuthService.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/Services/AuthService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/Services/AuthService.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Services/AuthService.cpp > CMakeFiles/NCTU_SIS.dir/app/Services/AuthService.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Services/AuthService.cpp > CMakeFiles/NCTU_SIS.dir/app/Services/AuthService.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/Services/AuthService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/Services/AuthService.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Services/AuthService.cpp -o CMakeFiles/NCTU_SIS.dir/app/Services/AuthService.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Services/AuthService.cpp -o CMakeFiles/NCTU_SIS.dir/app/Services/AuthService.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/Services/GradingService.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/Services/GradingService.cpp.o: /home/yassin/UniversityApp-1/app/Services/GradingService.cpp
 CMakeFiles/NCTU_SIS.dir/app/Services/GradingService.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/Services/GradingService.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Services/GradingService.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Services/GradingService.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Services/GradingService.cpp.o -c /home/yassin/UniversityApp-1/app/Services/GradingService.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Services/GradingService.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Services/GradingService.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Services/GradingService.cpp.o -c /home/yassin/UniversityApp-1/app/Services/GradingService.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/Services/GradingService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/Services/GradingService.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Services/GradingService.cpp > CMakeFiles/NCTU_SIS.dir/app/Services/GradingService.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Services/GradingService.cpp > CMakeFiles/NCTU_SIS.dir/app/Services/GradingService.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/Services/GradingService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/Services/GradingService.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Services/GradingService.cpp -o CMakeFiles/NCTU_SIS.dir/app/Services/GradingService.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Services/GradingService.cpp -o CMakeFiles/NCTU_SIS.dir/app/Services/GradingService.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/Services/AttendanceService.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/Services/AttendanceService.cpp.o: /home/yassin/UniversityApp-1/app/Services/AttendanceService.cpp
 CMakeFiles/NCTU_SIS.dir/app/Services/AttendanceService.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/Services/AttendanceService.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Services/AttendanceService.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Services/AttendanceService.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Services/AttendanceService.cpp.o -c /home/yassin/UniversityApp-1/app/Services/AttendanceService.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Services/AttendanceService.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Services/AttendanceService.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Services/AttendanceService.cpp.o -c /home/yassin/UniversityApp-1/app/Services/AttendanceService.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/Services/AttendanceService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/Services/AttendanceService.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Services/AttendanceService.cpp > CMakeFiles/NCTU_SIS.dir/app/Services/AttendanceService.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Services/AttendanceService.cpp > CMakeFiles/NCTU_SIS.dir/app/Services/AttendanceService.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/Services/AttendanceService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/Services/AttendanceService.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Services/AttendanceService.cpp -o CMakeFiles/NCTU_SIS.dir/app/Services/AttendanceService.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Services/AttendanceService.cpp -o CMakeFiles/NCTU_SIS.dir/app/Services/AttendanceService.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/Services/PMDService.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/Services/PMDService.cpp.o: /home/yassin/UniversityApp-1/app/Services/PMDService.cpp
 CMakeFiles/NCTU_SIS.dir/app/Services/PMDService.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/Services/PMDService.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Services/PMDService.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Services/PMDService.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Services/PMDService.cpp.o -c /home/yassin/UniversityApp-1/app/Services/PMDService.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Services/PMDService.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Services/PMDService.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Services/PMDService.cpp.o -c /home/yassin/UniversityApp-1/app/Services/PMDService.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/Services/PMDService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/Services/PMDService.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Services/PMDService.cpp > CMakeFiles/NCTU_SIS.dir/app/Services/PMDService.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Services/PMDService.cpp > CMakeFiles/NCTU_SIS.dir/app/Services/PMDService.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/Services/PMDService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/Services/PMDService.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Services/PMDService.cpp -o CMakeFiles/NCTU_SIS.dir/app/Services/PMDService.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Services/PMDService.cpp -o CMakeFiles/NCTU_SIS.dir/app/Services/PMDService.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/Utils/PasswordHasher.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/Utils/PasswordHasher.cpp.o: /home/yassin/UniversityApp-1/app/Utils/PasswordHasher.cpp
 CMakeFiles/NCTU_SIS.dir/app/Utils/PasswordHasher.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/Utils/PasswordHasher.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Utils/PasswordHasher.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Utils/PasswordHasher.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Utils/PasswordHasher.cpp.o -c /home/yassin/UniversityApp-1/app/Utils/PasswordHasher.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Utils/PasswordHasher.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Utils/PasswordHasher.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Utils/PasswordHasher.cpp.o -c /home/yassin/UniversityApp-1/app/Utils/PasswordHasher.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/Utils/PasswordHasher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/Utils/PasswordHasher.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Utils/PasswordHasher.cpp > CMakeFiles/NCTU_SIS.dir/app/Utils/PasswordHasher.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Utils/PasswordHasher.cpp > CMakeFiles/NCTU_SIS.dir/app/Utils/PasswordHasher.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/Utils/PasswordHasher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/Utils/PasswordHasher.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Utils/PasswordHasher.cpp -o CMakeFiles/NCTU_SIS.dir/app/Utils/PasswordHasher.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Utils/PasswordHasher.cpp -o CMakeFiles/NCTU_SIS.dir/app/Utils/PasswordHasher.cpp.s
 
 CMakeFiles/NCTU_SIS.dir/app/Utils/Validators.cpp.o: CMakeFiles/NCTU_SIS.dir/flags.make
 CMakeFiles/NCTU_SIS.dir/app/Utils/Validators.cpp.o: /home/yassin/UniversityApp-1/app/Utils/Validators.cpp
 CMakeFiles/NCTU_SIS.dir/app/Utils/Validators.cpp.o: CMakeFiles/NCTU_SIS.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yassin/UniversityApp-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/NCTU_SIS.dir/app/Utils/Validators.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Utils/Validators.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Utils/Validators.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Utils/Validators.cpp.o -c /home/yassin/UniversityApp-1/app/Utils/Validators.cpp
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NCTU_SIS.dir/app/Utils/Validators.cpp.o -MF CMakeFiles/NCTU_SIS.dir/app/Utils/Validators.cpp.o.d -o CMakeFiles/NCTU_SIS.dir/app/Utils/Validators.cpp.o -c /home/yassin/UniversityApp-1/app/Utils/Validators.cpp
 
 CMakeFiles/NCTU_SIS.dir/app/Utils/Validators.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NCTU_SIS.dir/app/Utils/Validators.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Utils/Validators.cpp > CMakeFiles/NCTU_SIS.dir/app/Utils/Validators.cpp.i
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yassin/UniversityApp-1/app/Utils/Validators.cpp > CMakeFiles/NCTU_SIS.dir/app/Utils/Validators.cpp.i
 
 CMakeFiles/NCTU_SIS.dir/app/Utils/Validators.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NCTU_SIS.dir/app/Utils/Validators.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Utils/Validators.cpp -o CMakeFiles/NCTU_SIS.dir/app/Utils/Validators.cpp.s
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yassin/UniversityApp-1/app/Utils/Validators.cpp -o CMakeFiles/NCTU_SIS.dir/app/Utils/Validators.cpp.s
 
 # Object files for target NCTU_SIS
 NCTU_SIS_OBJECTS = \

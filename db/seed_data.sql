@@ -34,12 +34,15 @@ INSERT OR REPLACE INTO doctors (id, name, email, phone, password_hash, salt, dep
 (2, 'Dr. Sara Ali', 'sara.ali@nctu.edu.eg', '01009876543', '7c8c7fd2792d4b0b1e3e2dad1465de8933557e029fd9154d4a4835d4200d776c', 'salt123', 1),
 (3, 'Dr. Mohamed Hassan', 'mohamed.hassan@nctu.edu.eg', '01005556677', '7c8c7fd2792d4b0b1e3e2dad1465de8933557e029fd9154d4a4835d4200d776c', 'salt123', 2);
 
--- Insert Students (password: student123)
--- Hash: SHA256("salt123" + "student123") = 0dc501a41a5299138a54e57936d14e118d619b7d14940365c9cb6896246090c9
+-- Insert Students
+-- Student login:
+--   - Username: numeric student_code (e.g., 20241150)
+--   - Password: national_id for that student
+-- Hashes below are SHA256("salt123" + national_id)
 INSERT OR REPLACE INTO students (id, student_code, name, email, phone, password_hash, salt, program_id, department_id, national_id, birth_date, gender, seat_number, status, level) VALUES
-(1, 'STU2024001', 'Yassin Mohamed', 'yassin.mohamed@student.nctu.edu.eg', '01001112233', '0dc501a41a5299138a54e57936d14e118d619b7d14940365c9cb6896246090c9', 'salt123', 1, 1, '12345678901234', '2000-01-15', 'M', 'S001', 'active', 2),
-(2, 'STU2024002', 'Mariam Ali', 'mariam.ali@student.nctu.edu.eg', '01002223344', '0dc501a41a5299138a54e57936d14e118d619b7d14940365c9cb6896246090c9', 'salt123', 1, 1, '23456789012345', '2001-03-20', 'F', 'S002', 'active', 2),
-(3, 'STU2024003', 'Omar Hassan', 'omar.hassan@student.nctu.edu.eg', '01003334455', '0dc501a41a5299138a54e57936d14e118d619b7d14940365c9cb6896246090c9', 'salt123', 2, 1, '34567890123456', '2000-07-10', 'M', 'S003', 'active', 3);
+(1, '20241150', 'Yassin Mohamed', 'yassin.mohamed@student.nctu.edu.eg', '01001112233', '79d2a78f37a2359a6090ee34f04e061c0049eaac80ab11135a23f3fd25479f2f', 'salt123', 1, 1, '12345678901234', '2000-01-15', 'M', 'S001', 'active', 2),
+(2, '20241151', 'Mariam Ali', 'mariam.ali@student.nctu.edu.eg', '01002223344', 'c2bbd888faac430b418317fcc14da40ab7f3f3b8e79fda3194d5b89b1e4d899c', 'salt123', 1, 1, '23456789012345', '2001-03-20', 'F', 'S002', 'active', 2),
+(3, '20241152', 'Omar Hassan', 'omar.hassan@student.nctu.edu.eg', '01003334455', 'd1166c99c1a35d4a7aed51f463c14a1de4475d8cda447424cb19001494156c81', 'salt123', 2, 1, '34567890123456', '2000-07-10', 'M', 'S003', 'active', 3);
 
 -- Insert Courses
 INSERT INTO courses (id, code, name, credit_hours, program_id, year, semester, course_type, description) VALUES
